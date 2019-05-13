@@ -1,5 +1,5 @@
 # Laren-JQuery
-JQuery的學習筆記 20190510
+                                          JQuery的學習筆記 20190513
 
 Jquery 安裝方式<br>
 1.http://jquery.com 先到官方網站下載<br>
@@ -38,10 +38,31 @@ all.js內容
 			$('h1').hide();
 		});
 
-
 		$('#show').click(function(event) {
 			$('h1').show();
 		});
 	});
 ```
  
+                                          JQuery的學習筆記 20190510
+JQuery當中還有許多動畫特效<br>
+例如:slideToggle但是這些方式是控制css 達到動畫的效果 所以會造成電腦大量的耗能<br>
+
+toggleClass可以動態增加class 在使新增的class吃到一開始就做好的設定<br>
+```
+jQuery(document).ready(function($) {
+	$(".post2").click(function(event) {
+		$(".text2").toggleClass('active');
+	});
+});
+```
+按鈕觸發.text2新增一個active的class<br>
+再讓那個active吃到“顯示”的css<br>
+
+```
+.text2.active{
+			display: block;
+		}
+```
+這樣就可以達成點擊按鈕出現某元件的效果了！<br>
+詳情請看看day2的code<br>
