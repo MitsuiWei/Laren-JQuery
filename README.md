@@ -65,4 +65,18 @@ jQuery(document).ready(function($) {
 		}
 ```
 這樣就可以達成點擊按鈕出現某元件的效果了！<br>
+
+如果想要造成fadeIn和fadeOut的漸層效果的話
+可以使用opacity + transition
+```
+		.text2.active{
+			opacity: 1;
+		}
+
+		.text2{
+			opacity: 0;  
+			transition: all 3s;
+		}
+```
+
 詳情請看看day2的code<br>
