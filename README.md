@@ -1,5 +1,5 @@
 # Laren-JQuery
-                                          JQuery的學習筆記 20190513
+                                          JQuery的學習筆記 20190512
 
 Jquery 安裝方式<br>
 1.http://jquery.com 先到官方網站下載<br>
@@ -44,7 +44,7 @@ all.js內容
 	});
 ```
  
-                                          JQuery的學習筆記 20190510
+                                          JQuery的學習筆記 20190513
 JQuery當中還有許多動畫特效<br>
 例如:slideToggle但是這些方式是控制css 達到動畫的效果 所以會造成電腦大量的耗能<br>
 
