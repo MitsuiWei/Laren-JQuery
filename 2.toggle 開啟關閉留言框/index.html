@@ -1,0 +1,67 @@
+	
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>toggleClass的演練</title>
+	<meta charset="UTF-8">
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/all.js"></script>
+
+	<style>
+	/*這邊是fadeToggle的演練*/
+	/*利用fadeToggle來產生動畫是非常耗能的,因為不斷的塞css值進去
+	比較建議的是用動態的toggleClass*/
+
+		.text2{
+			display: none
+		}
+
+	/*這邊是toggleClass的演練*/
+		.text3.active{
+			opacity: 1;
+		}
+
+		.text3{
+			opacity: 0;  
+			transition: all 3s;
+		}
+	</style>
+
+
+</head>
+<body>
+	<p>下面是slideToggle的演練</p>
+
+	<button class="post">留言</button>
+	<div style="display: none;" class="text">
+		
+		<textarea class="" cols="10" rows="10"></textarea>
+		<button class="send">送出</button>
+	</div>
+
+
+	
+	<p>下面是fadeToggle的演練</p>
+	<button class="post2">留言</button>
+	<div class="text2">
+		
+		<textarea class="" cols="10" rows="10"></textarea>
+		<button class="send">送出</button>
+	</div>
+
+
+
+
+
+	<p>下面是toggleClass的演練</p>
+
+	<button class="post3">留言</button>
+		<div class="text3">
+			
+			<textarea class="" cols="10" rows="10"></textarea>
+			<button class="send">送出</button>
+	</div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>產品介紹</title>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/all.js"></script>
+	<meta charset="utf-8">
+
+	<style>
+	.box{
+			height: 300px;
+			width: 300px;
+			border: 10px solid green;
+			margin: 50px;
+			border-color: blue;
+			border-style: solid;
+			position: relative;
+			overflow: hidden;
+		}
+
+	.box:hover .title{
+		bottom: 0px;
+	}
+
+	.title{
+		transition: all 1s;
+		width: 100%;
+		background-color: black;
+		color: white;
+		text-align: center;
+		font-size: 30px;
+		padding: 5px 0px;
+		position: absolute;
+		bottom: -50px;
+
+
+	}
+
+	</style>
+</head>
+<body>
+<div class="box">
+
+	<div class="title">產品標題</div>
+	
+</div>
+
+
+</body>
+</html>

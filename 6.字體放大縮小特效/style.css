@@ -1,0 +1,46 @@
+.swap{
+	margin: 0 auto;
+	width: 500px;
+}
+
+.header{
+	height: 80px;
+	background-color: pink;
+}
+
+.header ul{
+	float: right;
+}
+
+.header li{
+	float: left;
+}
+
+.header a{
+	text-decoration: none;
+	display: block;
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: gray;
+	color: white;
+}
+
+.header a:hover{
+	background: blue;
+  	color:#fff;
+}
+
+.content p{
+  line-height: 1.5;
+  font-size: 16px;
+  margin-bottom: 2em;
+}
+
+.header p{
+	line-height: 1.5;
+  	font-size: 20px;
+  	display: inline;
+  	margin-left: 200px;
+  	
+}
